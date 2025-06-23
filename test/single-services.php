@@ -13,7 +13,7 @@
                     <?php the_content(); ?>
                   </p>
                 </div>
-                <img src="<?php bloginfo('template_url');?>/assets/images/drilling-services/1.png" alt="img" class="service__item-img">
+                <?php the_post_thumbnail('medium'); ?>
               </div>
             </div>
           </div>
